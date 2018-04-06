@@ -1,0 +1,184 @@
+.site-header {
+  background-image: url("img/home/sakshi/Assignments/Basic_design_structure/background.jpeg");
+  background-color: purple;
+  color: white; }
+  .site-header .logo {
+    display: flex;
+    margin-left: 15%;
+    padding-top: 2%; }
+    .site-header .logo__image {
+      width: 3%;
+      height: 3%;
+      padding-top: 5%; }
+    .site-header .logo__text {
+      font-size: 15px;
+      margin: 1%; }
+  .site-header .menu__items {
+    display: flex;
+    margin-left: 50%;
+    list-style-type: none;
+    margin-top: -22px; }
+    .site-header .menu__items--list {
+      margin: 2%; }
+  .site-header__content {
+    text-align: center;
+    padding: 5%; }
+    .site-header__content__text-first {
+      font-size: 25px;
+      opacity: 0.8; }
+    .site-header__content__text-second {
+      font-size: 48px; }
+    .site-header__content__button {
+      color: white;
+      border: 2px solid white;
+      width: 17%;
+      height: 38px;
+      padding: 1%;
+      margin-left: 40%; }
+
+.block--grey {
+  background-color: #f8f8f8; }
+.block__wrap {
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .block__wrap__text {
+    width: 60%; }
+    .block__wrap__text--title {
+      font-size: 50px;
+      margin-top: 0px; }
+    .block__wrap__text--copy {
+      color: #787878; }
+  .block__wrap__icon {
+    font-size: 12em !important;
+    width: 10%;
+    color: #d3d3d3; }
+.block .project {
+  display: flex;
+  padding: 10%; }
+  .block .project__wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .block .project__wrap--left {
+      width: 50%; }
+    .block .project__wrap--right {
+      width: 50%; }
+    .block .project__wrap__icon {
+      font-size: 35px; }
+    .block .project__wrap__text {
+      margin: 10%;
+      opacity: 0.6; }
+      .block .project__wrap__text--title {
+        margin-top: 0px;
+        font-size: 13px; }
+      .block .project__wrap__text--copy {
+        font-size: 11px;
+        color: #787878; }
+.block .client-review {
+  background-color: #f8f8f8; }
+  .block .client-review .heading {
+    text-align: center;
+    line-height: 5%;
+    opacity: 0.8;
+    padding: 1%; }
+    .block .client-review .heading .heading-1 {
+      font-size: 40px;
+      line-height: 5%; }
+    .block .client-review .heading .para {
+      color: #787878; }
+  .block .client-review__wrap {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin-left: 15%;
+    margin-right: 15%; }
+    .block .client-review__wrap__image {
+      border-radius: 50%;
+      width: 20%; }
+    .block .client-review__wrap__copy {
+      border: 1px solid lightgrey;
+      border-width: 50%;
+      background-color: white;
+      color: #787878;
+      margin: 10%;
+      padding: 5%;
+      text-align: center; }
+.block .client {
+  display: flex;
+  align-items: center;
+  margin-left: 5%; }
+  .block .client__logo {
+    width: 20%;
+    margin: 1%; }
+.block .site-team {
+  background-color: #202020;
+  color: white;
+  padding: 4%; }
+  .block .site-team .heading {
+    text-align: center;
+    line-height: 5%;
+    padding: 1%; }
+    .block .site-team .heading .heading-1 {
+      font-size: 40px;
+      line-height: 5%; }
+    .block .site-team .heading .para {
+      color: #787878;
+      font-size: 12px; }
+  .block .site-team__member {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .block .site-team__member--details {
+      text-align: center;
+      margin: 0px; }
+      .block .site-team__member--details .image {
+        width: 25%;
+        border-radius: 50%;
+        border: 4px solid white; }
+
+.footer {
+  background-color: lightblue;
+  color: white; }
+  .footer__upper {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10%; }
+    .footer__upper .company-detail .heading {
+      margin-left: 11%;
+      font-size: 55px;
+      margin-bottom: 0px;
+      margin-top: 0px; }
+    .footer__upper .company-detail .msg {
+      margin-left: 11%; }
+    .footer__upper .company-detail__strap {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center; }
+      .footer__upper .company-detail__strap .info {
+        display: flex;
+        align-items: center; }
+        .footer__upper .company-detail__strap .info .icon {
+          font-size: 30px;
+          margin: 6%; }
+    .footer__upper .form__input {
+      border-radius: 5px;
+      color: grey;
+      height: 50px;
+      border: none;
+      padding-left: 2%; }
+    .footer__upper .form__text-area {
+      border-radius: 5px;
+      color: grey;
+      border: none;
+      padding-left: 2%; }
+  .footer__lower {
+    text-align: center;
+    padding: 1%;
+    text-decoration: overline; }
+
+/*# sourceMappingURL=index.css.map */
